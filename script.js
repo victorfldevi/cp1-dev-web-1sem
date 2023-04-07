@@ -19,3 +19,24 @@ if (numero % 2 === 0) {
 } else {
   console.log("O número é ímpar");
 }
+
+//numero 3
+//  - Escreva um programa que calcula o índice de massa corporal (IMC) de uma pessoa e exibe uma 
+//  mensagem indicando se ela está abaixo, no peso ideal ou acima do peso. Considere as seguintes faixas de 
+//  IMC: abaixo de 18,5 (abaixo do peso), entre 18,5 e 24,9 (peso ideal) e acima de 24,9 (acima do peso). 
+//  Exemplifique e demonstre a saída!
+
+
+// Declaração das variáveis
+let peso = 88; // em kg
+let altura = 1.76; // em metros
+let imc = peso / (altura * altura);
+
+// Exibição do resultado
+if (imc < 18.5) {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está abaixo do peso.");
+} else if (imc >= 18.5 && imc <= 24.9) {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está no peso ideal.");
+} else {
+  console.log("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso.");
+}
