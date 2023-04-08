@@ -40,3 +40,13 @@ if (imc < 18.5) {
 } else {
   console.log("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso.");
 }
+
+//numero 8
+
+//Crie um programa em Javascript que troque a palavra lugar por mundo da frase O LUGAR VIRA 
+// TECNOLOGIA e apresente na tela. (20 Pontos)
+
+const frase = "O LUGAR VIRA TECNOLOGIA";
+const novaFrase = frase.replace("LUGAR", "MUNDO");
+
+document.getElementById("texto").innerHTML = novaFrase;
