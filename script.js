@@ -51,6 +51,8 @@ const novaFrase = frase.replace("LUGAR", "MUNDO");
 
 document.getElementById("texto").innerHTML = novaFrase;
 
+
+
 //numero 9
 // Crie um programa que declare a variável como String depois converta para float e em seguida apresente 
 // apenas dois numeros depois da virgula (20 Pontos)
