@@ -5,19 +5,19 @@ let num1;
 //atribuir valor a variavel
 num1 = undefined;
 
-console.log(num1);
+document.write(num1);
 
 //numero 2 
 //Como usar o operador % em JavaScript? Exemplifique e demonstre a saída!
 
 let resultado = 10 % 3;
-console.log(resultado);
+document.write(resultado);
 
 let numero = 7;
 if (numero % 2 === 0) {
-  console.log("O número é par");
+  document.write("O número é par");
 } else {
-  console.log("O número é ímpar");
+  document.write("O número é ímpar");
 }
 
 //numero 3
@@ -34,11 +34,11 @@ let imc = peso / (altura * altura);
 
 // Exibição do resultado
 if (imc < 18.5) {
-  console.log("Seu IMC é " + imc.toFixed(2) + ", você está abaixo do peso.");
+  document.write("Seu IMC é " + imc.toFixed(2) + ", você está abaixo do peso.");
 } else if (imc >= 18.5 && imc <= 24.9) {
-  console.log("Seu IMC é " + imc.toFixed(2) + ", você está no peso ideal.");
+  document.write("Seu IMC é " + imc.toFixed(2) + ", você está no peso ideal.");
 } else {
-  console.log("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso.");
+  document.write("Seu IMC é " + imc.toFixed(2) + ", você está acima do peso.");
 }
 
 //numero 8
