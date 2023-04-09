@@ -89,7 +89,8 @@ document.write("<br><br>")
 
 
 //numero 6
-//Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado. Considere que a média mínima para aprovação é 6. Exemplifique e demonstre a saída! (5 Pontos)
+/*Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado. Considere 
+que a média mínima para aprovação é 6. Exemplifique e demonstre a saída! (5 Pontos)*/
 
 let nota1 = parseFloat(prompt('Digite a nota 1:'));
 let nota2 = parseFloat(prompt('Digite a nota 2:'));
@@ -112,8 +113,16 @@ if (media >= 6) {
 // Crie um programa que digite o nome, idade, Curso e ano na tela um embaixo do outro , no seu html 
 // coloque um fundo e um titulo e o javascript deve ser externo.(20 Pontos)
 
+document.write("Nome: Clebinho");
+document.write("<br><br>");
+document.write("Idade: 32");
+document.write("<br><br>");
+document.write("Curso: Engenharia de software");
+document.write("<br><br>");
 
 
+document.write("Ano: 2023");
+document.write("<br><br>");
 
 
 //numero 8
@@ -123,7 +132,7 @@ if (media >= 6) {
 const frase = "O LUGAR VIRA TECNOLOGIA";
 const novaFrase = frase.replace("LUGAR", "MUNDO");
 
-document.getElementById("texto").innerHTML = novaFrase;
+document.write(novaFrase);
 document.write("<br><br>")
 
 
